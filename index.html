@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog/Post Manager</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <script defer src="./src/index.js"></script>
+    </head>
+    <body>
+        <!-- header -->
+        <header id="menu">
+            <h1>PinPost</h1>
+            <p>Write, organize, and publish — all in one simple space</p>
+        </header>
+        <!-- end of header -->
+
+        <!-- container -->
+        <div class="container">
+            <form id="post-form">
+                <input type="text" placeholder="Post title..." name="Post-title" id="post-title">
+                <input type="text" placeholder="Author name..." name="Author-name" id="post-author">
+                <input type="text" placeholder="Image URL..." name="Image-URL" id="post-imageURL">
+                <textarea placeholder="Write your post content..." name="post-content" id="post-content"></textarea>
+                <button type="submit">Create a Post</button>
+            </form>
+            <ul id="post-list" class="cards">
+                <!-- Posts here -->
+            </ul>
+        </div>
+        <!-- end of container -->
+    </body>
+</html>

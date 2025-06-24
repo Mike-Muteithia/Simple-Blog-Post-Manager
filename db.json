@@ -1,0 +1,17 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "East Africa",
+            "author": "Ray Eden",
+            "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Africa-countries-eastern.svg/250px-Africa-countries-eastern.svg.png",
+            "content":"East Africa, also known as Eastern Africa or the East of Africa, is a region at the eastern edge of the African continent, distinguished by its unique geographical, historical, and cultural landscape. Defined in varying scopes, the region is recognized in the United Nations Statistics Division scheme as encompassing 18 sovereign states and 4 territories. It includes the Horn of Africa to the North and Southeastern Africa to the south."
+        },
+        {
+            "id": 2,
+            "title": "Asia",
+            "author": "Zhhttps://static.vecteezy.com/system/resources/previews/013/079/152/non_2x/doodle-freehand-drawing-of-asia-map-free-png.png",
+            "content":"Asia is the largest continent in the world by both land area and population.It covers an area of more than 44 million square kilometres, about 30% of Earth's total land area and 8% of Earth's total surface area. The continent, which has long been home to the majority of the human population, was the site of many of the first civilisations. Its 4.7 billion people constitute roughly 60% of the world's population."
+        }
+    ]
+}

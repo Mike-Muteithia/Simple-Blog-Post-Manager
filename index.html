@@ -17,16 +17,20 @@
 
         <!-- container -->
         <div class="container">
-            <form id="post-form">
+            <form id="new-post-form">
                 <input type="text" placeholder="Post title..." name="Post-title" id="post-title">
                 <input type="text" placeholder="Author name..." name="Author-name" id="post-author">
                 <input type="text" placeholder="Image URL..." name="Image-URL" id="post-imageURL">
                 <textarea placeholder="Write your post content..." name="post-content" id="post-content"></textarea>
                 <button type="submit">Create a Post</button>
             </form>
-            <ul id="post-list" class="cards">
+            <div class="content">
+                <h2>Posts</h2>
+                <div id="post-list" class="cards">
                 <!-- Posts here -->
-            </ul>
+                </div>
+                <div id="post-detail" class="post-detail"></div>
+            </div>
         </div>
         <!-- end of container -->
     </body>

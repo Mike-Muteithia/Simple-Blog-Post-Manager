@@ -16,7 +16,7 @@ A simple web application that allows you to create, display, and manage blog pos
 
 
 ## File Structure
-
+w3-Code-Challenge
 ├── index.html           # Main HTML structure
 ├── css/styles.css       # Styles for layout and elements
 ├── src/index.js         # Core JavaScript logic

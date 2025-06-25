@@ -8,30 +8,49 @@
         <script defer src="./src/index.js"></script>
     </head>
     <body>
-        <!-- header -->
+        <!-- Header Section -->
         <header id="menu">
             <h1>PinPost</h1>
+            <!-- Main title/logo of the site -->
             <p>Write, organize, and publish — all in one simple space</p>
+            <!-- A short description -->
         </header>
-        <!-- end of header -->
+        <!-- End of Header -->
 
-        <!-- container -->
+        <!-- Main Page Container -->
         <div class="container">
+            <!-- Form to create a new post -->
             <form id="new-post-form">
+                <!-- Input for the post title -->
                 <input type="text" placeholder="Post title..." name="Post-title" id="post-title">
+
+                <!-- Input for the post author's name -->
                 <input type="text" placeholder="Author name..." name="Author-name" id="post-author">
+
+                <!-- Input for an image URL for the post -->
                 <input type="text" placeholder="Image URL..." name="Image-URL" id="post-imageURL">
+
+                <!-- Text area for the post content -->
                 <textarea placeholder="Write your post content..." name="post-content" id="post-content"></textarea>
+
+                <!-- Button to submit the new post -->
                 <button type="submit">Create a Post</button>
             </form>
+
+            <!-- Post Listing and Details -->
             <div class="content">
                 <h2>Posts</h2>
+                <!-- Section title for the post listing -->
+
+                <!-- Container for listing all the post cards -->
                 <div id="post-list" class="cards">
-                <!-- Posts here -->
+                <!-- New posta will be added here through JavaScript -->
                 </div>
+
+                <!-- Holds a post detail view when the title is clicked -->
                 <div id="post-detail"></div>
             </div>
         </div>
-        <!-- end of container -->
+        <!-- End of Main Page Container -->
     </body>
 </html>
